@@ -1,0 +1,45 @@
+form{
+    display:flex;
+    flex-direction: column;
+}
+
+button
+{
+    margin: 0.5em;
+    background-color: rgb(47, 8, 139);
+    height: 40px;
+    color: white;
+    width: 50%;
+
+}
+
+input[type="text"],textarea, input[type="date"], input[type="time"]
+{
+    margin: 0.5em;
+    height: 40px;
+    width: 50%;
+}
+
+input[type="text"],textarea, input[type="date"], input[type="time"]
+{
+    margin: 0.5em;
+    height: 40px;
+    width: 50%;
+}
+
+input[type="text"],textarea, input[type="date"], input[type="time"]:hover
+{
+    cursor: text;
+}
+
+button:hover {
+    background-color: rgb(40, 40, 65);
+    color: white;
+    cursor: pointer;
+}
+
+
+label{
+    color: red;
+    padding: 0.5em;
+}
